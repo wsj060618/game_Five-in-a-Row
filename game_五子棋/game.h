@@ -9,6 +9,8 @@ void DisplayBoard(char board[ROW][COL], int row, int col);//打印棋盘
 
 void PlayerMove(char board[ROW][COL], int row, int col);//玩家移动
 
+void Player2Move(char board[ROW][COL], int row, int col);//玩家2移动
+
 void ComputerMove(char board[ROW][COL], int row, int col);//电脑移动
 
 char IsWin(char board[ROW][COL], int row, int col);//判断胜利
